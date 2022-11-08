@@ -1,0 +1,27 @@
+.navigation-config {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 830px;
+  height: 96px;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(40.7742px);
+  margin: 0px;
+}
+
+.nav-option {
+  list-style: none;
+  height: 19px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+  letter-spacing: 2.7px;
+
+  color: #ffffff;
+}
+
+.number-option {
+  font-weight: bold;
+}
