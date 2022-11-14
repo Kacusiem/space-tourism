@@ -1,0 +1,35 @@
+.explore-btn {
+  color: #000;
+  text-transform: uppercase;
+  width: 274px;
+  padding: 117px 63px 117px 63px;
+  background-color: #fff;
+  font-size: 32px;
+  font-weight: 300;
+  border-radius: 50%;
+  text-align: center;
+  letter-spacing: 0.2cm;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    color: #232b2b;
+    box-shadow: 0 0 0 60px rgba(255, 255, 255, .3);
+    &:visited {
+      color: #232b2b;
+    }
+  }
+
+  &:active {
+    color: #3b444b;
+    &:visited {
+      color: #3b444b;
+    }
+  }
+  &:visited {
+    color: #000;
+  }
+}
+
+.explore-link {
+  text-decoration: none;
+
+}
