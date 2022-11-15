@@ -1,0 +1,97 @@
+.login-wrapper {
+  background-image: url("../../assets/home/background-home-desktop.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.max-width-login-wrapper {
+  max-width: 1440px;
+  margin: auto;
+
+}
+
+.login-place {
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 2px 10px 30px -5px rgba(208, 214, 249, 1);
+}
+
+.left-site-login , .right-site-login {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-site-login {
+    background: #D0D6F9;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    text-align: center;
+}
+
+.right-site-login {
+
+}
+
+.login-image, .login-quote {
+    width: 300px;
+    margin: 25px;
+}
+
+.login-quote {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.login-brand {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-brand-name {
+    font-size: 22px;
+    margin-left: 4px;
+    margin-top: -4px;
+}
+
+.login-back-btn {
+    color: #000;
+    max-width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        color: #232b2b;
+        &:visited {
+            color: #232b2b;
+        }
+      }
+    
+      &:active {
+        color: #3b444b;
+        &:visited {
+          color: #3b444b;
+        }
+      }
+      &:visited {
+        color: #000;
+      }
+
+    
+}
+
+.login-btn-text {
+    margin-left: 4px;
+    margin-top: -2px;
+    font-size: 20px;
+}

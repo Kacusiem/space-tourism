@@ -1,4 +1,4 @@
-import ExploreButton from "../../components/atoms/Buttons/ExploreButton"
+import ExploreButton from "../../components/atoms/Buttons/ExploreButton/ExploreButton"
 
 const ViewRegister = () => {
     return (
