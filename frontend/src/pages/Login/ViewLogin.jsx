@@ -9,7 +9,9 @@ const ViewLogin = () => {
   return (
     <>
       <div className={"login-wrapper"}>
+      <div className={'logo-place'}><Logo/></div>
         <div className={"max-width-login-wrapper"}>
+
           <div className={"login-place"}>
             <div className={"left-site-login"}>
               <Button customClassName={"login-back-btn"} to={routes.home} >

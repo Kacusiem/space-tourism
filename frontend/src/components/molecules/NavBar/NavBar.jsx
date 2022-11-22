@@ -5,7 +5,7 @@ import "./NavBar.scss";
 const NavBar = () => {
   return (
     <div className={"navBar-wrapper"}>
-      <Logo customClassName={"padding-logo"} />
+      <Logo />
       <div className={"nav-line"}></div>
       <NavOptions/>
     </div>
