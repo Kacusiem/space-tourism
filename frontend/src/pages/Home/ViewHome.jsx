@@ -1,14 +1,16 @@
-import NavBar from "../../components/molecules/NavBar/NavBar";
-
-import './ViewHome.scss'
+import HomePageContent from "../../components/organisms/HomePageContent";
+import TemplateMain from "../../components/templates/TemplateMain/TemplateMain";
+import "./ViewHome.scss";
 
 const ViewHome = () => {
   return (
-    <div className={'main-wrapper'}>
-      <NavBar />
-      
-
-    </div>
+    <TemplateMain>
+      <div className={"parent-home-style "}>
+        <div className={"home-style"}>
+          <HomePageContent />
+        </div>
+      </div>
+    </TemplateMain>
   );
 };
 

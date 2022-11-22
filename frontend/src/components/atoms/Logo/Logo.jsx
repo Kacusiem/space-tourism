@@ -1,8 +1,11 @@
 import logo from '../../../assets/shared/logo.svg'
 import { Link } from 'react-router-dom'
+import { routes } from '../../../routes'
+import './Logo.scss'
+
 const Logo = ({customClassName, disable}) => {
     return (
-        <Link className={`${customClassName} ${disable ? 'erase-events' : ''}`}>
+        <Link to={routes.home} className={`${customClassName} logo-style ${disable ? 'erase-events' : ''}`}>
             <img
                 src={logo}
                 alt={'logo-space-tourism'}

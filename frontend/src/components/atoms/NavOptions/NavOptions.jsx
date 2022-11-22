@@ -1,6 +1,6 @@
-import "./CustomLink.scss";
+import "./NavOptions.scss";
 
-const CustomLink = () => {
+const NavOptions = () => {
   return (
       <ul className={"navigation-config"}>
         <li className={"nav-option"}>
@@ -19,4 +19,4 @@ const CustomLink = () => {
   );
 };
 
-export default CustomLink;
+export default NavOptions;
